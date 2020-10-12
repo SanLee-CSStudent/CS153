@@ -1,0 +1,11 @@
+make qemu-nox-gdb
+	opens gdb connection
+make qemu-gdb -X
+	bypass graphics error
+
+gdb reference:
+https://www.cs.ucr.edu/~csong/cs153/refs/gdb.html
+
+b function_name
+	ex) b *0x7c00
+	sets breakpoint
